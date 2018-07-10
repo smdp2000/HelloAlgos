@@ -1,13 +1,12 @@
 //============================================================================
-// Name        : codeforces.cpp
-// Author      : 
+// Name        : main.cpp
+// Author      : somyadeep shrivastava
 // Version     :
 // Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Description : delete left(codeforces) in C++, Ansi-style
 //============================================================================
 
-// Space optimized CPP implementation to print
-// longest common substring.
+
 #include <bits/stdc++.h>
 #include<iostream>
 
