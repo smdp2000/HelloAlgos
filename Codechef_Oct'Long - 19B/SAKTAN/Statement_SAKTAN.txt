@@ -1,0 +1,41 @@
+*Link to the Problem - https://www.codechef.com/OCT19B/problems/SAKTAN
+
+"It's totally fun to play troublemakers ― totally." - Lee Pace
+
+Sakshi had a matrix with N rows (numbered 1 through N) and M columns (numbered 1 through M). 
+Initially, all cells of this matrix contained 0-s. Let's denote a cell in row r and column c by (r,c).
+
+Sakshi is well-known for troubling others. This time, her friends Nikki and Mansi planned to take revenge and teach her a lesson,
+so they changed her matrix by performing the following operation Q times:
+
+*Choose any valid cell (x,y).
+*Add 1 to all the cells in row x.
+*Add 1 to all the cells in column y.
+
+For each valid i, the cell chosen in the i-th operation was (Xi,Yi).
+Nikki and Mansi challenged Sakshi to find the number of cells in the resulting matrix which contain odd integers.
+Sakshi is not good at math, since she has spent all her life troubling others, so this time, she really needs your help.
+Help Sakshi find the answer.
+
+------------------------------------------------------------------------------------------------------------------
+*INPUT*
+
+*The first line of the input contains a single integer T denoting the number of test cases.
+ The description of T test cases follows.
+*The first line of each test case contains three space-separated integers N, M and Q.
+*Q lines follow. For each i (1≤i≤Q), the i-th of these lines contains two space-separated integers Xi and Yi.
+
+------------------------------------------------------------------------------------------------------------------------
+*OUTPUT*
+For each test case, print a single line containing one integer ― the number of cells with odd values.
+
+--------------------------------------------------------------------------------------------------------------------------
+*CONSTRAINTS*
+
+*1≤T≤300
+*1≤N,M,Q≤105
+*1≤Xi≤N for each valid i
+*1≤Yi≤M for each valid i
+*The sum of N over all test cases does not exceed 3*10^5
+*The sum of M over all test cases does not exceed 3*10^5
+*The sum of Q over all test cases does not exceed 3*10^5
