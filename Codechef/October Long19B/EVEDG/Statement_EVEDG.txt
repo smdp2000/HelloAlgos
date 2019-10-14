@@ -1,0 +1,41 @@
+Link to the problem :- https://www.codechef.com/OCT19B/problems/EVEDG
+
+
+Chef has a simple undirected graph with N vertices (numbered 1 through N) and M edges.
+He wants to divide it into K parts (subgraphs) for some integer K.
+
+First, Chef divides the vertices in the graph into K sets such that each vertex belongs to exactly one set;
+The subgraphs and sets are numbered 1 through K such that for each valid i, vertices from the i-th set belong to the i-th subgraph.
+Then, Chef checks all the edges in the graph.For an edge connecting vertices u and v,
+if u and v are both in the i-th set, then this edge belongs to the i-th subgraph.
+Otherwise, this edge does not belong to any of these K subgraphs.
+
+At the end, Chef checks these K subgraphs. If each subgraph contains an even number of edges,
+then Chef thinks that this way of dividing the graph is delicious.
+
+Chef wants to divide the graph in a delicious way such that K is the smallest possible.
+Find the minimum K and one such way to divide the graph.
+--------------------------------------------------------------------------------------------------------------------------------------
+*INPUT*
+
+* The first line of the input contains a single integer T denoting the number of test cases.
+  The description of T test cases follows.
+* The first line of each test case contains two space-separated integers N and M.
+* Each of the next M lines contains two space-separated integers u and v denoting that vertices u and v are connected by an edge.
+--------------------------------------------------------------------------------------------------------------------------------------
+*OUTPUT*
+
+For each test case, print two lines. The first of these lines should contain a single integer ― the minimum K. The second line should 
+contain N space-separated integers, where for each valid i, the i-th integer denotes the subgraph that vertex i belongs to.
+
+If there are multiple solutions, you may output any one.
+-------------------------------------------------------------------------------------------------------------------------------------
+*CONSTRAINTS*
+
+* 1≤T≤3,000 
+* 1≤M≤100,000
+* 2≤N≤100,000
+* 1≤u≠v≤N
+* The graph contains no duplicate edges or self-loops
+* The sum of N over all test cases does not exceed 106
+* The sum of M over all test cases does not exceed 106
