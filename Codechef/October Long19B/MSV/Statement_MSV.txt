@@ -1,0 +1,24 @@
+Link to the problem :- https://www.codechef.com/OCT19B/problems/MSV.
+
+You are given a sequence A1,A2,…,AN. For each valid i,
+the star value of the element Ai is the number of valid indices j<i such that Aj is divisible by Ai.
+
+Chef is a curious person, so he wants to know the maximum star value in the given sequence. Help him find it.
+-------------------------------------------------------------------------------------------------------------
+*INPUT*
+
+* The first line of the input contains a single integer T which denotes the number of test cases.
+* The first line of each test case contains a single integer N .
+* The second line of each test case contains N space-separated integers A1,A2,…,AN.
+--------------------------------------------------------------------------------------------------------------
+*OUTPUT*
+
+* For each test case, print a single line containing one integer ― the maximum star value.
+--------------------------------------------------------------------------------------------------------------
+*CONSTRAINTS*
+
+* 1≤T≤10
+* 1≤N≤105
+* 1≤Ai≤106 for each valid i
+* Sum of N over all test cases does not exceed 100,000.
+--------------------------------------------------------------------------------------------------------------

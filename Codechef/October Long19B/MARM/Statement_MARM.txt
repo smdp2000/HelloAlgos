@@ -1,0 +1,30 @@
+Link to the Problem :- https://www.codechef.com/OCT19B/problems/MARM
+
+
+Chef is really interested in the XOR operation. He wants to take a sequence A0,A1,…,AN−1 and
+for each i from 0 to K−1 inclusive (in this order, one by one), perform the following operations : 
+
+* Let's denote a=Ai%N and b=AN−(i%N)−1 before this operation.
+* Change Ai%N to a⊕b, i.e. a XOR b.
+
+Since Chef is busy, he asked you to find the final sequence he should get after performing these operations.
+------------------------------------------------------------------------------------------------------------
+*INPUT*
+
+* The first line of the input contains a single integer T denoting the number of test cases.
+  The description of T test cases follows.
+* The first line of each test case contains two space-separated integers N and K.
+* The second line contains N space-separated integers A0,A1,…,AN−1.
+
+---------------------------------------------------------------------------------------------------------------
+*OUTPUT*
+
+For each test case, print a single line containing N space-separated integers ― the elements of the final sequence.
+--------------------------------------------------------------------------------------------------------------------
+*CONSTRAINTS*
+
+* 1≤T≤70
+* 1≤N≤104
+* 1≤K≤1012
+* 1≤Ai≤107 for each valid i
+--------------------------------------------------------------------------------------------------------------------
